@@ -22,15 +22,17 @@ body {
 }
 
 .center {
-    padding-left: calc(50vw - 570px);
-    padding-right: calc(50vw - 570px);
+    padding-left: calc(50vw - 470px);
+    padding-right: calc(50vw - 470px);
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .header {
     display: grid;
     align-items: center;
     height: 50px;
-    background-color: #222222;        
+    background-color: #303030;
     color: white;
 }
 
@@ -40,7 +42,7 @@ body {
     align-items: center;
 }
 
-.markers{
+.markers {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -56,6 +58,42 @@ body {
     align-items: center;
 }
 
-.numbers-small{
+.numbers-small {
     font-size: small;
+}
+
+.head-banner {
+    width: 100vw;
+    height: 70vh;
+    background-image: url('images/head-banner.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.head-line {
+    font-size: 40px;
+    color: white;
+}
+
+.subtitle{
+    color: white;
+    margin-top: 8px;
+    font-size:larger;
+}
+
+.banner {
+    position: relative;
+}
+
+.nav-bar-li {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    gap: 24px;
 }
