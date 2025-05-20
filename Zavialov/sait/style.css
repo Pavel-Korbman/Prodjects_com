@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 li {
@@ -90,4 +91,37 @@ body {
   z-index: 10;
   color: white;
   gap: 24px;
+}
+
+.product-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.product__text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product__photo {
+  max-width: 40%;
+}
+.product__name {
+  color: #6f6e6e;
+}
+.product__descriptions__point {
+  color: #6f6e6e;
+}
+.product__price {
+  font-weight: 600;
+  color: #6f6e6e;
 }/*# sourceMappingURL=style.css.map */
