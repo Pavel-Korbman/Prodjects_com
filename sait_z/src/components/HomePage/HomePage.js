@@ -11,17 +11,16 @@ function HomePage() {
                     Похоронное бюро Сергея Завьялова
                 </Typography>
 
-                {/* <div className='pages__title'>
-                    <p>
-                        ИТ-специалисты востребованы в финансах, ритейле, образовании и многих других отраслях.
-                    </p>
-                    <p>
-                        Экономика и повседневная жизнь все больше переходит в «цифру»,
-                    </p>
-                    <p>
-                        поэтому у ИТ-сферы самые большие перспективы на развитие в ближайшем будущем.
-                    </p>
-                </div> */}
+                <div class="banner-box">
+                    <div class="head-banner">
+                        <h1 class="head-banner__line center">Похоронное бюро</h1>
+                        <h1 class="head-banner__line logo-text center">СЕРГЕЯ ЗАВЬЯЛОВА</h1>
+                        <p class="head-banner__subtitle center">Ознакомиться с&nbsp;полным каталогом товаров и&nbsp;услуг для
+                            похорон,<br />а&nbsp;также заказать и&nbsp;оплатить можно связавшись с&nbsp;нами
+                            по&nbsp;телефону,<br />
+                            электронной почте или мессенджеру.</p>
+                    </div>
+                </div>
 
                 {/* <div className='box'>
                     <a href="/programs" >

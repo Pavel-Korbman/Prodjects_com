@@ -88,6 +88,14 @@ a {
 .header__color {
   background-color: #303030 !important;
 }
+.header__end {
+  flex-direction: column !important;
+  align-items: flex-end !important;
+}
+.header__align {
+  flex-direction: column !important;
+  align-items: flex-end !important;
+}
 
 .center {
   padding-left: calc(50vw - 720px);

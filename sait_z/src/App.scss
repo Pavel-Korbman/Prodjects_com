@@ -18,6 +18,14 @@ a {
     &__color{
         background-color: #303030 !important;
     }
+    &__end{
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
+    &__align{
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
 }
 
 .center {
