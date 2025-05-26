@@ -14,35 +14,65 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.header{
-    &__color{
+.header {
+    &__color {
         background-color: #303030 !important;
     }
-    &__end{
+
+    &__end {
         flex-direction: column !important;
         align-items: flex-end !important;
     }
-    &__align{
+
+    &__align {
         flex-direction: column !important;
         align-items: flex-end !important;
     }
 }
 
 .center {
-    padding-left: calc(50vw - $widthSite/2);
-    padding-right: calc(50vw - $widthSite/2);
+    // padding-left: calc(50vw - $widthSite/2);
+    // padding-right: calc(50vw - $widthSite/2);
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
+    // margin-left: 16px;
+    // margin-right: 16px;
 }
 
 .pages {
-    margin-top: 130px;
+    margin-top: 140px;
     min-height: 81vh;
 
     &__title {
+        // margin-top: 100px !important;
         color: $grayText;
         text-align: center;
         padding-bottom: 30px;
     }
 
+}
+
+.head-banner {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("img/head-banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+
+    &__line {        
+        justify-content: center !important;
+        text-align: center;
+    } 
+
+}
+
+.line-box{
+    max-width: 60vw !important;   
 }
 
 .box {

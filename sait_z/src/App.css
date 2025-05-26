@@ -98,18 +98,39 @@ a {
 }
 
 .center {
-  padding-left: calc(50vw - 720px);
-  padding-right: calc(50vw - 720px);
+  padding-left: calc(50vw - 570px);
+  padding-right: calc(50vw - 570px);
 }
 
 .pages {
-  margin-top: 130px;
+  margin-top: 140px;
   min-height: 81vh;
 }
 .pages__title {
   color: #6f6e6e;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.head-banner {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("img/head-banner.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+.head-banner__line {
+  justify-content: center !important;
+  text-align: center;
+}
+
+.line-box {
+  max-width: 60vw !important;
 }
 
 .box {

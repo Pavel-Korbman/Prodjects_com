@@ -6,30 +6,50 @@ function HomePage() {
     return (
         <div>
             <Header />
-            <div className="pages center">
-                <Typography className='pages__title' variant="h4" gutterBottom>
-                    Похоронное бюро Сергея Завьялова
-                </Typography>
+            <div className="head-banner">
+                <div className="line-box">
+                    <Typography
+                        className="head-banner__line"
+                        variant="h4"                       
+                        component="h4"
 
-                <div class="banner-box">
-                    <div class="head-banner">
-                        <h1 class="head-banner__line center">Похоронное бюро</h1>
-                        <h1 class="head-banner__line logo-text center">СЕРГЕЯ ЗАВЬЯЛОВА</h1>
-                        <p class="head-banner__subtitle center">Ознакомиться с&nbsp;полным каталогом товаров и&nbsp;услуг для
-                            похорон,<br />а&nbsp;также заказать и&nbsp;оплатить можно связавшись с&nbsp;нами
-                            по&nbsp;телефону,<br />
-                            электронной почте или мессенджеру.</p>
-                    </div>
+                        sx={{
+                            mb: 1,
+                            display: { xs: 'flex', md: 'flex' },
+                            fontWeight: 700,
+                            letterSpacing: '.2rem',
+                            color: 'white',
+                            textDecoration: 'none',
+                        }}>
+                        Похоронное бюро Сергея Завьялова
+                    </Typography>
+
+                    <Typography
+                        className="head-banner__line "
+                        variant="body1"                        
+                        component="p"
+                        sx={{                            
+                            display: { xs: 'flex', md: 'flex' },
+                            fontWeight: 500,
+                            letterSpacing: '.15rem',
+                            color: '#e0e0e0',
+                            textDecoration: 'none',
+                        }}>
+                        Ознакомиться с полным каталогом товаров и услуг для похорон,
+                        а также заказать и оплатить можно связавшись с нами по телефону,
+                        электронной почте или мессенджеру.
+                    </Typography>
                 </div>
 
-                {/* <div className='box'>
-                    <a href="/programs" >
-                        <ProgramCart id={'title-banner'} img={require('../../img/title_banner.jpg')} title={'Выберите программу обучения'} text={'Перейдите в раздел "Программы обучения". Выберите  интересующее вас направление, при помощи фильтра и начните обучение.'} />
-                    </a>
-                    <a href="/lecturers" >
-                        <ProgramCart id={'title-banner'} img={require('../../img/title_banner_2.jpg')} title={'Познакомьтесь с преподавателями'} text={'Перейдите в раздел "Преподаватели". Прочитайте подробную информацию о наших преподавателях.'} />
-                    </a>
-                </div> */}
+
+            </div>
+            <div className="pages center">
+              
+
+
+           
+
+               
 
             </div>
             {/* <Footer /> */}

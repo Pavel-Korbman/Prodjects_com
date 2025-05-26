@@ -6,6 +6,8 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
+import Products from './components/Products/Products';
+
 
 
 function App() {
@@ -15,8 +17,8 @@ function App() {
           <Routes>
             <Route path="*" element={<HomePage/>} />
             <Route path="/" element={<HomePage />} />
-            {/* <Route path="/products" element={<Products />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/products" element={<Products/>} />
+            {/* <Route path="/services" element={<Services />} />
             <Route path="/info" element={<Info />} />
             <Route path="/lesson" element={<Lesson />} />
             <Route path="/info" element={<Info />} /> */}
