@@ -15,7 +15,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PhoneIcon from '@mui/icons-material/Phone';
 
-function Header() {
+function Header(props) {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -108,7 +108,7 @@ function Header() {
                             <Button
                                 key='services'
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: `${props.services}`, display: 'block' }}
                             >
                                 Услуги
                             </Button>
@@ -118,7 +118,7 @@ function Header() {
                             <Button
                                 key='products'
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: `${props.products}`, display: 'block' }}
                             >
                                 Цены
                             </Button>
@@ -128,7 +128,7 @@ function Header() {
                             <Button
                                 key='info'
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: `${props.info}`, display: 'block' }}
                             >
                                 Информация
                             </Button>

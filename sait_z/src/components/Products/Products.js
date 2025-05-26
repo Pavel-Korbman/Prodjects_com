@@ -9,7 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import FilterListIcon from '@mui/icons-material/FilterList';
-// import Footer from "../Footer";
+import Footer from "../Footer";
 
 function Products() {
 
@@ -28,10 +28,10 @@ function Products() {
 
     return (
         <div>
-            <Header />
+            <Header services='white' products='primary' info='white'/>
 
             <div className="pages center">
-                <Typography className='pages__title' variant="h4" gutterBottom>
+                <Typography className='pages__title pages__title-top' variant="h4" gutterBottom>
                     Цены
                 </Typography>
 
@@ -56,11 +56,11 @@ function Products() {
 
                 <div className='box'>
                     {filteredProducts.map(item => (
-                        <ProductCart id={item.id} key={item.id} img={item.photoLink} name={item.name} text={item.description} />
+                        <ProductCart id={item.id} key={item.id} img={item.photoLink} name={item.name} price={item.price} text={item.description} />
                     ))}
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }

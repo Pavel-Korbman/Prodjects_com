@@ -16,12 +16,17 @@ export default function ProductCart(props) {
                     alt="image"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography gutterBottom variant="h5" component="div" sx={{ color: 'text.secondary' }}>
                         {props.name}
                     </Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                        {props.text}
+                    <Typography gutterBottom variant="h6" component="div" sx={{ color: '#f16d7f' }}>
+                        {props.price} ₽
                     </Typography>
+                    {props.text.map(item => (
+                        <Typography key={item} variant="body2" sx={{ color: 'text.secondary' }}>
+                            {item}
+                        </Typography>
+                    ))}                  
                 </CardContent>
             </CardActionArea>
         </Card>

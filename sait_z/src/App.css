@@ -14,7 +14,7 @@
 
 .footer__buttons {
   display: flex;
-  gap: 7px;
+  gap: 8px;
 }
 
 .footer__icon {
@@ -111,6 +111,9 @@ a {
   text-align: center;
   padding-bottom: 30px;
 }
+.pages__title-top {
+  padding-top: 68px;
+}
 
 .head-banner {
   width: 100vw;
@@ -125,6 +128,7 @@ a {
   position: relative;
 }
 .head-banner__line {
+  flex-direction: column;
   justify-content: center !important;
   text-align: center;
 }
