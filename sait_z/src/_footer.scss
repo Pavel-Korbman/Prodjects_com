@@ -1,9 +1,11 @@
 .footer {
+    
     height: 79px;
     background-color: $backBlock;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .address {
@@ -24,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .footer__icon:hover {
@@ -35,7 +38,7 @@
 }
 
 @media (max-width: 1140px) {
-    
+
 
     .address {
         padding-left: 17px;
