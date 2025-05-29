@@ -2,6 +2,7 @@ import Header from "../Header";
 import Typography from '@mui/material/Typography';
 import Footer from "../Footer";
 import Services from "../Services/Services";
+import ServicesStepper from "../ServicesStepper";
 
 function HomePage() {
 
@@ -62,7 +63,7 @@ function HomePage() {
             </div>
 
             <Services />
-
+            <ServicesStepper />
             <Footer />
 
         </div >

@@ -122,6 +122,7 @@
   font-weight: 700;
   color: #f16d7f;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .off {
@@ -301,7 +302,7 @@ a {
   margin-bottom: 30px;
 }
 .box__faq {
-  gap: 0;
+  gap: 12px;
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -309,6 +310,10 @@ a {
 .text__block {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.stepper {
+  flex-wrap: wrap !important;
 }
 
 @media (max-width: 1440px) {
