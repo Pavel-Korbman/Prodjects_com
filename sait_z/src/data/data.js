@@ -12,7 +12,7 @@ const products = [
         ],
         type: 'cremation',
         photoLink: require('../img/product_1.jpg'),
-        inTop: false,
+        inTop: true,
         price: 40000
     },
     {
@@ -45,7 +45,7 @@ const products = [
         ],
         type: 'cremation',
         photoLink: require('../img/product_3.jpg'),
-        inTop: false,
+        inTop: true,
         price: 55000
     },
     {
@@ -79,7 +79,7 @@ const products = [
         ],
         type: 'cremation',
         photoLink: require('../img/product_5.jpg'),
-        inTop: false,
+        inTop: true,
         price: 89000
     },
     {
@@ -115,7 +115,7 @@ const products = [
         ],
         type: 'funeral',
         photoLink: require('../img/product_101.jpg'),
-        inTop: false,
+        inTop: true,
         price: 50000
     },
     {
@@ -155,7 +155,7 @@ const products = [
         ],
         type: 'funeral',
         photoLink: require('../img/product_103.jpg'),
-        inTop: false,
+        inTop: true,
         price: 71000
     },
     {
@@ -195,7 +195,7 @@ const products = [
         ],
         type: 'funeral',
         photoLink: require('../img/product_105.jpg'),
-        inTop: false,
+        inTop: true,
         price: 117000
     },
     {

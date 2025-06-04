@@ -3,7 +3,7 @@ import ServicesBlock from '../ServicesBlock';
 
 function Services() {
     return (
-        <div>
+        <div className='max-wight'>
 
             <div className="pages center">
                 <Typography className='pages__title' variant="h4" gutterBottom>
@@ -15,6 +15,7 @@ function Services() {
                     </Typography>
                 </div>
                 <ServicesBlock />
+                
             </div>
 
 

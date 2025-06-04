@@ -34,7 +34,7 @@
 
     &__bgrd-4 {
         height: 180px;
-        width: 1142px;
+        width: 1140px;
         background-image: url(img/top_banner_accesories.jpg);
     }
 
@@ -65,10 +65,10 @@
 }
 
 @media (max-width: 1140px) {
-    // .center {
-    //     padding-left: calc(50vw - 368px);
-    //     padding-right: calc(50vw - 368px);
-    // }    
+    .center {
+        padding-left: calc(50vw - 368px);
+        padding-right: calc(50vw - 368px);
+    }    
 
     .type__block {
         gap: 16px;
