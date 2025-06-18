@@ -16,7 +16,7 @@ export default function ProductCart(props) {
                     alt="image"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div"  sx={{ color: 'text.secondary', fontWeight: 700 }}>
+                    <Typography gutterBottom variant="h6" component="div"  sx={{ color: 'text.secondary', fontWeight: 700 }}>
                         {props.name}
                     </Typography>
                     <Typography gutterBottom variant="h6" component="div" sx={{ color: '#f16d7f', fontWeight: 700 }}>
