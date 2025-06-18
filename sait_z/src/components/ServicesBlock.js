@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
@@ -26,12 +26,12 @@ function ServicesBlock() {
         <div className="type__margin">
 
             <nav className="type__block on">
-                <Button onClick={ handleOpen }>
+                <div onClick={ handleOpen }>
                     <div className="type__item type__item__bgrd-1">
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
                     </div>
-                </Button>
+                </div>
                 <a href="/">
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
@@ -55,13 +55,13 @@ function ServicesBlock() {
 
             </nav>
             <nav className="type__block off mobyle__off">
-                <a href="/">
+                <div onClick={ handleOpen }>
                     <div className="type__item type__item__bgrd-1">
 
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
                     </div>
-                </a>
+                </div>
                 <a href="/">
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
@@ -86,13 +86,13 @@ function ServicesBlock() {
 
             </nav>
             <nav className="type__block mobyle__on">
-                <a href="/">
+                <div onClick={ handleOpen }>
                     <div className="type__item type__item__bgrd-1">
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
 
                     </div>
-                </a>
+                </div>
                 <a href="/">
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
