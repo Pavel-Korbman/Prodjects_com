@@ -80,7 +80,7 @@ function Header(props) {
                             sx={{ display: { xs: 'block', md: 'none' } }}
                         >
 
-                            <a href='/services'>
+                            <a href='/'>
                                 <MenuItem key='services' onClick={handleCloseNavMenu}>
                                     <Typography sx={{ textAlign: 'center' }}>Услуги</Typography>
                                 </MenuItem>
@@ -104,7 +104,7 @@ function Header(props) {
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 
-                        <a href='/services'>
+                        <a href='/'>
                             <Button
                                 key='services'
                                 onClick={handleCloseNavMenu}
