@@ -11,7 +11,23 @@ function HeadBanner() {
 
                     sx={{
                         mb: 1,
-                        display: { xs: 'flex', md: 'flex' },
+                        display: { xs: 'none', md: 'flex' },
+                        fontWeight: 700,
+                        letterSpacing: '.1rem',
+                        color: 'white',
+                        textDecoration: 'none',
+                    }}>
+                    Похоронное бюро Сергея Завьялова
+                </Typography>
+
+                <Typography
+                    className="head-banner__line"
+                    variant="h5"
+                    component="h5"
+
+                    sx={{
+                        mb: 1,
+                        display: { xs: 'flex', md: 'none' },
                         fontWeight: 700,
                         letterSpacing: '.1rem',
                         color: 'white',
