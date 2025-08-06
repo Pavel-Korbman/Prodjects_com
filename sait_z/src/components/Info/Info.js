@@ -45,9 +45,15 @@ function Info() {
                 </div>
             </div>  */}
 
-            <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-               <Viewer fileUrl={require('../../img/goods_1.pdf')} />;
-            </Worker>      
+            <div className="pages center">
+                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+
+                    <Viewer fileUrl={require('../../img/goods_1.pdf')} />
+
+                </Worker>
+            </div>
+
+
 
 
 
