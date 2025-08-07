@@ -94,7 +94,7 @@ function Header(props) {
 
                             <a href='/info'>
                                 <MenuItem key='info' onClick={handleCloseNavMenu}>
-                                    <Typography sx={{ textAlign: 'center' }}>Информация</Typography>
+                                    <Typography sx={{ textAlign: 'center' }}>Каталог</Typography>
                                 </MenuItem>
                             </a>
 
@@ -130,7 +130,7 @@ function Header(props) {
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: `${props.info}`, display: 'block' }}
                             >
-                                Информация
+                                Каталог
                             </Button>
                         </a>
 
@@ -151,7 +151,7 @@ function Header(props) {
                                 textDecoration: 'none',
                             }}
                         >
-                            8(777) 777 77 77
+                            +7(926) 416 33 33
                         </Typography>
                         <Typography
                             variant="h7"
@@ -168,7 +168,7 @@ function Header(props) {
                                 textDecoration: 'none',
                             }}
                         >
-                            mail@mail.ru
+                            zavyalov@mail.ru
                         </Typography>
 
                     </Box>
@@ -191,7 +191,7 @@ function Header(props) {
                                 textDecoration: 'none',
                             }}
                         >
-                            8(777) 777 77 77
+                            +7(926) 416 33 33
                         </Typography>
 
                         <MailOutlineIcon color='white' fontSize="small" sx={{ display: { xs: 'flex', md: 'flex' }, mr: 2, color: 'gray' }} />
@@ -211,7 +211,7 @@ function Header(props) {
                                 textDecoration: 'none',
                             }}
                         >
-                            mail@mail.ru
+                            zavyalov@mail.ru
                         </Typography>
 
                     </Box>
