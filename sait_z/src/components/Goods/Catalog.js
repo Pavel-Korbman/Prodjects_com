@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import Footer from "../Footer";
 import Header from "../Header";
 
+
 function Catalog() {
 
     return (

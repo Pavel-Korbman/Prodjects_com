@@ -1,8 +1,7 @@
-import Footer from "../Footer";
-import Header from "../Header";
 
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
+import HeaderBack from "../HeaderBack";
 
 
 function ClothCoffins() {
@@ -10,7 +9,8 @@ function ClothCoffins() {
 
     return (
         <div>
-            <Header services='white' products='white' info='primary' />            
+
+            <HeaderBack />          
 
             <div className="pages center">
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
@@ -20,7 +20,7 @@ function ClothCoffins() {
                 </Worker>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
 
         </div >
     );
