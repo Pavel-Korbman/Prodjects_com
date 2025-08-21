@@ -92,8 +92,8 @@ function Header(props) {
                                 </MenuItem>
                             </a>
 
-                            <a href='/info'>
-                                <MenuItem key='info' onClick={handleCloseNavMenu}>
+                            <a href='/catalog'>
+                                <MenuItem key='catalog' onClick={handleCloseNavMenu}>
                                     <Typography sx={{ textAlign: 'center' }}>Каталог</Typography>
                                 </MenuItem>
                             </a>
@@ -124,9 +124,9 @@ function Header(props) {
                             </Button>
                         </a>
 
-                        <a href='/info'>
+                        <a href='/catalog'>
                             <Button
-                                key='info'
+                                key='catalog'
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: `${props.info}`, display: 'block' }}
                             >
