@@ -12,15 +12,13 @@ function ClothCoffins() {
 
             <HeaderBack />          
 
-            <div className="pages center">
+            <div className="goods center">
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
 
                     <Viewer fileUrl={require('../../img/cloth_coffins.pdf')} />
 
                 </Worker>
-            </div>
-
-            {/* <Footer /> */}
+            </div>           
 
         </div >
     );

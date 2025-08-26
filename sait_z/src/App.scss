@@ -30,6 +30,11 @@ a {
         flex-direction: column !important;
         align-items: flex-end !important;
     }
+
+    &__back {
+        z-index: 100 !important;
+        padding-top: 24px;
+    }
 }
 
 .center {
@@ -59,7 +64,10 @@ a {
 
 }
 
-
+.goods {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
 
 .box {
     @include boxFlex();

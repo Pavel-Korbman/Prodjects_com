@@ -9,7 +9,7 @@ function Catalog() {
         <div>
             <Header services='white' products='white' info='primary' />
 
-            <div className="pages center">
+            <div className="goods center">
 
                 <Button href='/cloth-coffins'>
                     Гробы обитые тканью и комбинированные
