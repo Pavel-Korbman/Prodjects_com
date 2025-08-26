@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import Footer from "../Footer";
 import Header from "../Header";
+import GoodsBlock from "../GoodsBlock";
 
 
 function Catalog() {
@@ -9,7 +10,9 @@ function Catalog() {
         <div>
             <Header services='white' products='white' info='primary' />
 
-            <div className="goods center">
+            <GoodsBlock />
+
+            {/* <div className="goods center">
 
                 <Button href='/cloth-coffins'>
                     Гробы обитые тканью и комбинированные
@@ -47,7 +50,7 @@ function Catalog() {
                     Катафальный транспорт
                 </Button>
 
-            </div>
+            </div> */}
 
             <Footer />
 
