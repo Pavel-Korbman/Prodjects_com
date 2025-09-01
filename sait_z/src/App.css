@@ -109,6 +109,51 @@
   width: 1140px;
   background-image: url(img/top_banner_accesories.jpg);
 }
+.type__item__bgrd-10 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/cloth_coffins_banner.jpg);
+}
+.type__item__bgrd-20 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/polished_coffins_banner.jpg);
+}
+.type__item__bgrd-30 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/bedding_banner.jpg);
+}
+.type__item__bgrd-40 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/dress_banner.jpg);
+}
+.type__item__bgrd-50 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/crosses_banner.jpg);
+}
+.type__item__bgrd-60 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/garlands_banner.jpg);
+}
+.type__item__bgrd-70 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/compositions_banner.jpg);
+}
+.type__item__bgrd-80 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/wreaths_banner.jpg);
+}
+.type__item__bgrd-90 {
+  height: 260px;
+  width: 360px;
+  background-image: url(img/cars_banner.jpg);
+}
 .type__item__text {
   font-size: 16px;
   font-weight: 400;
@@ -161,6 +206,51 @@
     width: 735px;
     background-image: url(img/top_banner_accesories_mini.jpg);
   }
+  .type__item__bgrd-10 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/cloth_coffins_banner_mini.jpg);
+  }
+  .type__item__bgrd-20 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/polished_coffins_banner_mini.jpg);
+  }
+  .type__item__bgrd-30 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/bedding_banner_mini.jpg);
+  }
+  .type__item__bgrd-40 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/dress_banner_mini.jpg);
+  }
+  .type__item__bgrd-50 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/crosses_banner_mini.jpg);
+  }
+  .type__item__bgrd-60 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/garlands_banner_mini.jpg);
+  }
+  .type__item__bgrd-70 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/compositions_banner_mini.jpg);
+  }
+  .type__item__bgrd-80 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/wreaths_banner_mini.jpg);
+  }
+  .type__item__bgrd-90 {
+    height: 168px;
+    width: 233px;
+    background-image: url(img/cars_banner_mini.jpg);
+  }
   .type__item__text {
     font-size: 14px;
   }
@@ -198,6 +288,51 @@
     width: 343px;
     background-image: url(img/top_banner_accesories.jpg);
   }
+  .type__item__bgrd-10 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/cloth_coffins_banner.jpg);
+  }
+  .type__item__bgrd-20 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/polished_coffins_banner.jpg);
+  }
+  .type__item__bgrd-30 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/bedding_banner.jpg);
+  }
+  .type__item__bgrd-40 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/dress_banner.jpg);
+  }
+  .type__item__bgrd-50 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/crosses_banner.jpg);
+  }
+  .type__item__bgrd-60 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/garlands_banner.jpg);
+  }
+  .type__item__bgrd-70 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/compositions_banner.jpg);
+  }
+  .type__item__bgrd-80 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/wreaths_banner.jpg);
+  }
+  .type__item__bgrd-90 {
+    height: 248px;
+    width: 343px;
+    background-image: url(img/cars_banner.jpg);
+  }
   .off {
     display: none;
   }
@@ -230,6 +365,51 @@
     height: 103px;
     width: 320px;
     background-image: url(img/top_banner_accesories.jpg);
+  }
+  .type__item__bgrd-10 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/cloth_coffins_banner.jpg);
+  }
+  .type__item__bgrd-20 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/polished_coffins_banner.jpg);
+  }
+  .type__item__bgrd-30 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/bedding_banner.jpg);
+  }
+  .type__item__bgrd-40 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/dress_banner.jpg);
+  }
+  .type__item__bgrd-50 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/crosses_banner.jpg);
+  }
+  .type__item__bgrd-60 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/garlands_banner.jpg);
+  }
+  .type__item__bgrd-70 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/compositions_banner.jpg);
+  }
+  .type__item__bgrd-80 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/wreaths_banner.jpg);
+  }
+  .type__item__bgrd-90 {
+    height: 231px;
+    width: 320px;
+    background-image: url(img/cars_banner.jpg);
   }
 }
 .head-banner {

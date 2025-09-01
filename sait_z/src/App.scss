@@ -1,8 +1,8 @@
-@import 'vars';
-@import 'mixins';
-@import 'footer';
-@import 'servicesBlock';
-@import 'headBanner';
+@use 'vars';
+@use 'mixins';
+@use 'footer';
+@use 'servicesBlock';
+@use 'headBanner';
 
 * {
     margin: 0;
