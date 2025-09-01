@@ -15,7 +15,6 @@ function HomePage() {
             <TopProducts/>           
             <ServicesStepper />
             <Footer />
-
         </div >
 
     );

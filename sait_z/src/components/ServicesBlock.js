@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
@@ -26,93 +25,95 @@ function ServicesBlock() {
         <div className="type__margin">
 
             <nav className="type__block on">
-                <div onClick={ handleOpen }>
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-1">
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
                     </div>
                 </div>
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
                         <p className="type__item__text">Траурный зал, погребение, похоронная процессия, церемония</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-3">
                         <p className="type__item__text-1">Сопровождение</p>
                         <p className="type__item__text">Поминальная трапеза, съёмка, церемониймейстер, медицинское сопровождение</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-4">
                         <p className="type__item__text-1">Комплекс услуг</p>
                         <p className="type__item__text">Ритуальные услуги во всех районах Москвы и в Московской области</p>
                     </div>
-                </a>
+                </div>
 
             </nav>
             <nav className="type__block off mobyle__off">
-                <div onClick={ handleOpen }>
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-1">
 
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
                     </div>
                 </div>
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
                         <p className="type__item__text">Траурный зал, погребение, похоронная процессия, церемония</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-3">
                         <p className="type__item__text-1">Сопровождение</p>
                         <p className="type__item__text">Поминальная трапеза, съёмка, церемониймейстер, медицинское сопровождение</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-4">
 
                         <p className="type__item__text-1">Комплекс услуг</p>
                         <p className="type__item__text">Ритуальные услуги во всех районах Москвы и в Московской области</p>
                     </div>
-                </a>
+                </div>
 
             </nav>
             <nav className="type__block mobyle__on">
-                <div onClick={ handleOpen }>
+
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-1">
                         <p className="type__item__text-1">Подготовка</p>
                         <p className="type__item__text">Оформление документов, место на кладбище, подготовка церемонии, оформление места захоронения</p>
-
                     </div>
+
                 </div>
-                <a href="/">
+
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-2">
                         <p className="type__item__text-1">Проведение</p>
                         <p className="type__item__text">Траурный зал, погребение, похоронная процессия, церемония</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-3">
                         <p className="type__item__text-1">Сопровождение</p>
                         <p className="type__item__text">Поминальная трапеза, съёмка, церемониймейстер, медицинское сопровождение</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="/">
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-4">
                         <p className="type__item__text-1">Комплекс услуг</p>
                         <p className="type__item__text"> Ритуальные услуги во всех районах Москвы и в Московской области</p>
                     </div>
-                </a>
+                </div>
 
             </nav>
 
@@ -124,11 +125,11 @@ function ServicesBlock() {
             >
                 <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Text in a modal
+                        Заказать можно связавшись с нами по телефону, электронной почте или мессенджеру
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                    {/* <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                    </Typography>
+                    </Typography> */}
                 </Box>
             </Modal>
 

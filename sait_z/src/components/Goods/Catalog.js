@@ -1,4 +1,5 @@
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
+import Typography from '@mui/material/Typography';
 import Footer from "../Footer";
 import Header from "../Header";
 import GoodsBlock from "../GoodsBlock";
@@ -10,47 +11,11 @@ function Catalog() {
         <div>
             <Header services='white' products='white' info='primary' />
 
+            <Typography className='pages__title' variant="h4" gutterBottom>
+                Ритуальные товары
+            </Typography>
+
             <GoodsBlock />
-
-            {/* <div className="goods center">
-
-                <Button href='/cloth-coffins'>
-                    Гробы обитые тканью и комбинированные
-                </Button>
-                <p></p>
-                <Button href='/polished-coffins'>
-                    Гробы полированные и фурнитура
-                </Button>
-                <p></p>
-                <Button href='/bedding'>
-                    Постель в гроб
-                </Button>
-                <p></p>
-                <Button href='/dress'>
-                    Ритуальная одежда и траурные принадлежности
-                </Button>
-                <p></p>
-                <Button href='/crosses'>
-                    Кресты и ритуальные таблички
-                </Button>
-                <p></p>
-                <Button href='/garlands'>
-                    Гирлянды в изголовье
-                </Button>
-                <p></p>
-                <Button href='/compositions'>
-                    Кремационные композиции
-                </Button>
-                <p></p>
-                <Button href='/wreaths'>
-                    Венки и ленты
-                </Button>
-                <p></p>
-                <Button href='/cars'>
-                    Катафальный транспорт
-                </Button>
-
-            </div> */}
 
             <Footer />
 
