@@ -1,5 +1,5 @@
-@use 'vars';
-@use 'mixins';
+@use 'vars' as vars;
+@use 'mixins' as mixins;
 @use 'footer';
 @use 'servicesBlock';
 @use 'headBanner';
@@ -53,7 +53,7 @@ a {
 
     &__title {
         // margin-top: 100px !important;
-        color: $grayText;
+        color: vars.$grayText;
         text-align: center;
         padding-bottom: 30px;
 
@@ -70,7 +70,7 @@ a {
 }
 
 .box {
-    @include boxFlex();
+    @include mixins.boxFlex();
     margin-bottom: 60px;
 
     &__filter {
@@ -111,16 +111,16 @@ a {
 }
 
 .button {
-    border: 1px solid $colorSelectSite;
+    border: 1px solid vars.$colorSelectSite;
     font-weight: 400;
     font-size: 16px;
-    color: $colorSelectSite;
+    color: vars.$colorSelectSite;
     padding: 16px 40px;
 }
 
 .button:hover {
-    background-color: $colorSelectSite;
-    color: $witeBack;
+    background-color: vars.$colorSelectSite;
+    color: vars.$witeBack;
 }
 
 

@@ -1,7 +1,9 @@
+@use 'vars' as vars;
+
 .footer {
     
     height: 79px;
-    background-color: $backBlock;
+    background-color: vars.$backBlock;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +24,7 @@
 .footer__icon {
     width: 32px;
     height: 32px;
-    background-color: $witeBack;
+    background-color: vars.$witeBack;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +32,11 @@
 }
 
 .footer__icon:hover {
-    background-color: $colorSelectSite;
+    background-color: vars.$colorSelectSite;
 }
 
 .footer__icon:hover path {
-    fill: $witeBack;
+    fill: vars.$witeBack;
 }
 
 @media (max-width: 1140px) {

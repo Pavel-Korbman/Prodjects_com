@@ -1,3 +1,5 @@
+@use 'vars' as vars;
+
 .type__margin {
     padding-bottom: 120px !important;
 }
@@ -5,7 +7,7 @@
 .type__block {
     display: flex;
     flex-wrap: wrap;
-    gap: $gapGreed;
+    gap: vars.$gapGreed;
     justify-content: center;
 }
 
@@ -95,7 +97,7 @@
     &__text {
         font-size: 16px;
         font-weight: 400;
-        color: $witeBack;
+        color: vars.$witeBack;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
@@ -105,7 +107,7 @@
         font-size: 24px;
         font-weight: 700;
         // color: #f16d7f;
-        color: $colorSelectSite;
+        color: vars.$colorSelectSite;
         text-align: center;
         margin-bottom: 8px;
     }
