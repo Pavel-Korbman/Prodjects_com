@@ -117,6 +117,15 @@
         text-align: center;
         margin-bottom: 8px;
     }
+
+     &__text-10 {
+        font-size: 24px;
+        font-weight: 700;
+        // color: #f16d7f;
+        color: vars.$colorSelectSite;        
+        text-align: center;
+        margin-bottom: 8px;
+    }
 }
 
 .off {
@@ -226,6 +235,10 @@
     }
 
     .type__item__text-1 {
+        font-size: 20px;
+    }
+
+    .type__item__text-10 {
         font-size: 20px;
     }
 
