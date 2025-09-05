@@ -46,6 +46,13 @@ function ServicesBlock() {
                 </div>
 
                 <div onClick={handleOpen}>
+                    <div className="type__item type__item__bgrd-5">
+                        <p className="type__item__text-1">Груз 200</p>
+                        <p className="type__item__text">Подберем транспорт, возьмем на себя бронирование авиабилетов и все необходимые документы для перевозки</p>
+                    </div>
+                </div>
+
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-4">
                         <p className="type__item__text-1">Комплекс услуг</p>
                         <p className="type__item__text">Ритуальные услуги во всех районах Москвы и в Московской области</p>
@@ -72,6 +79,14 @@ function ServicesBlock() {
                     <div className="type__item type__item__bgrd-3">
                         <p className="type__item__text-1">Сопровождение</p>
                         <p className="type__item__text">Поминальная трапеза, съёмка, церемониймейстер, медицинское сопровождение</p>
+                    </div>
+                </div>
+
+                <div onClick={handleOpen}>
+                    <div className="type__item type__item__bgrd-5">
+
+                        <p className="type__item__text-1">Груз 200</p>
+                        <p className="type__item__text">Подберем транспорт, возьмем на себя бронирование авиабилетов и все необходимые документы для перевозки</p>
                     </div>
                 </div>
 
@@ -109,9 +124,16 @@ function ServicesBlock() {
                 </div>
 
                 <div onClick={handleOpen}>
+                    <div className="type__item type__item__bgrd-5">
+                        <p className="type__item__text-1">Груз 200</p>
+                        <p className="type__item__text">Подберем транспорт, возьмем на себя бронирование авиабилетов и все необходимые документы для перевозки</p>
+                    </div>
+                </div>
+
+                <div onClick={handleOpen}>
                     <div className="type__item type__item__bgrd-4">
                         <p className="type__item__text-1">Комплекс услуг</p>
-                        <p className="type__item__text"> Ритуальные услуги во всех районах Москвы и в Московской области</p>
+                        <p className="type__item__text">Ритуальные услуги во всех районах Москвы и в Московской области</p>
                     </div>
                 </div>
 

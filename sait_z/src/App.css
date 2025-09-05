@@ -109,6 +109,11 @@
   width: 1140px;
   background-image: url(img/top_banner_accesories.jpg);
 }
+.type__item__bgrd-5 {
+  height: 180px;
+  width: 1140px;
+  background-image: url(img/top_banner_200.jpg);
+}
 .type__item__bgrd-10 {
   height: 260px;
   width: 360px;
@@ -206,6 +211,11 @@
     width: 735px;
     background-image: url(img/top_banner_accesories_mini.jpg);
   }
+  .type__item__bgrd-5 {
+    height: 118px;
+    width: 735px;
+    background-image: url(img/top_banner_200_mini.jpg);
+  }
   .type__item__bgrd-10 {
     height: 168px;
     width: 233px;
@@ -286,7 +296,12 @@
   .type__item__bgrd-4 {
     height: 111px;
     width: 343px;
-    background-image: url(img/top_banner_accesories.jpg);
+    background-image: url(img/top_banner_accesories_micro.jpg);
+  }
+  .type__item__bgrd-5 {
+    height: 111px;
+    width: 343px;
+    background-image: url(img/top_banner_200_micro.jpg);
   }
   .type__item__bgrd-10 {
     height: 248px;
@@ -364,7 +379,12 @@
   .type__item__bgrd-4 {
     height: 103px;
     width: 320px;
-    background-image: url(img/top_banner_accesories.jpg);
+    background-image: url(img/top_banner_accesories_micro.jpg);
+  }
+  .type__item__bgrd-5 {
+    height: 103px;
+    width: 320px;
+    background-image: url(img/top_banner_200_micro.jpg);
   }
   .type__item__bgrd-10 {
     height: 231px;
